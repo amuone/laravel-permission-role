@@ -1,0 +1,47 @@
+{
+    "name": "amuone/laravel-role-permission",
+    "description": "Role and Permission handling for laravel 9.0 and up",
+    "keywords": [
+        "amuone",
+        "laravel",
+        "permission",
+        "permissions",
+        "role",
+        "roles",
+        "security"
+    ],
+    "support": {
+        "issues": "https://github.com/amuone/laravel-role-permission/issues"
+    },
+    "homepage": "https://github.com/amuone/laravel-role-permission",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Amuone\\RolePermission\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kishor Rajbanshi",
+            "email": "kishorrajbanshi00@gmail.com",
+            "homepage": "https://www.amuone.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "^8.0|^8.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amuone\\RolePermission\\RolePermissionServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
